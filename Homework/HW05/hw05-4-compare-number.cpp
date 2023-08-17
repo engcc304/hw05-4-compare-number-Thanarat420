@@ -25,3 +25,26 @@
     Output:
         Number1 equal Number2
 */
+#include <stdio.h>
+int main ()
+{
+    int a = 0, b = 0 ;
+    printf  ("Input[1] Input[2] : " ) ;
+    scanf ( "%d %d", &a, &b ) ;
+    if ( a > b )
+    {
+        printf ( "Number1 greater than Number2" ) ;
+    }
+    else if ( b > a )
+    {
+        printf ( "Number1 lower than Number2" ) ;
+    }
+    else if ( a == b )
+    {
+        printf ( "Number1 equal Number2" ) ;
+    }
+    else printf ( "Error" ) ;
+    
+    
+    return 0 ;
+}
